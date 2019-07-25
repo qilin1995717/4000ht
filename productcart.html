@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"> UI Pages</a></li>
+              <li class="breadcrumb-item">ProductCart</li>
+            </ol>
+          </div>
+          <h4 class="page-title">ProductCart</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-lg-8 zurb-div-md-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Shopping Cart</h5>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Product</th>
+                      <th>price</th>
+                      <th>Quantity</th>
+                      <th>Total</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Wooden sofa set</td>
+                      <td><span>$3,450.00</span></td>
+                      <td class="w-70px "><input type="text" class="form-control text-center h-30" placeholder="1"></td>
+                      <td><span>$3,450.00</span></td>
+                      <td><a class="btn btn-danger btn-sm" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash-o"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>Striped chair</td>
+                      <td><span>$15,678.00</span></td>
+                      <td class="w-70px"><input type="text" class="form-control text-center h-30" placeholder="2"></td>
+                      <td><span>$31,356.00</span></td>
+                      <td><a class="btn btn-danger btn-sm" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash-o"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td>Flower vases</td>
+                      <td><span>$456.00</span></td>
+                      <td class="w-70px"><input type="text" class="form-control text-center h-30" placeholder="3"></td>
+                      <td><span>$1,368.00</span></td>
+                      <td><a class="btn btn-danger btn-sm" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash-o"></i></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <form class="text-left  product-cart m-t-20 mb-0">
+                <h4 class="header-title m-t-20 mb-0"><b>Add a coupon code</b></h4>
+                <input class="productcart" type="text" placeholder="Coupon Code">
+                <a href="#" class="btn btn-primary btn-md">Apply</a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-4 zurb-div-md-12">
+          <div class="card m-b-20">
+            <h5 class="card-header text-center">Order Summery</h5>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td>Cart Subtotal</td>
+                      <td class="text-right">$36,174.00</td>
+                    </tr>
+                    <tr>
+                      <td><span>Totals</span></td>
+                      <td class="text-right text-muted"><span>$36,174.00</span></td>
+                    </tr>
+                    <tr>
+                      <td><span>Order Total</span></td>
+                      <td>
+                        <h2 class="price text-right">$36,174.00</h2>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <form class="text-center">
+                <input class="btn btn-primary btn-lg m-t-20 m-b-20 btn-block" type="submit" value="Proceed To Checkout">
+                <input class="btn btn-outline-secondary btn-lg  btn-block" type="submit" value="Continue Shopping">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer20"></div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/created.js"></script>
+</body>
+
+</html>

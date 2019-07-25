@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"> UI Pages</a></li>
+              <li class="breadcrumb-item">Maps</li>
+            </ol>
+          </div>
+          <h4 class="page-title">Maps</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Basic Map</h5>
+            <div class="card-body">
+              <div id="map1" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Map with Shift Worker</h5>
+            <div class="card-body">
+              <div id="mapShiftWorker" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Map with Blue Water</h5>
+            <div class="card-body">
+              <div id="mapBlueWater" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Map with MapBox Like</h5>
+            <div class="card-body">
+              <div id="mapMapBox" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Map with Apply Like</h5>
+            <div class="card-body">
+              <div id="mapApple" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Map with Shades of Gray</h5>
+            <div class="card-body">
+              <div id="mapShadesOfGrey" class="gmaph"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer20"></div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="http://maps.google.com/maps/api/js?key=AIzaSyCuWEQWfVkWfcUoSIZeGw5JioT9LVCwYkE"></script>
+  <script  src="js/plugins/gmaps/gmaps.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/plugins/jquery/js/jquery.js"></script>
+  <script  src="js/map.shiftworker.js"></script>
+  <script  src="js/map.bluewater.js"></script>
+  <script  src="js/map.shadesofgray.js"></script>
+  <script  src="js/map.apple.js"></script>
+  <script  src="js/map.mapbox.js"></script>
+  <script  src="js/created.js"></script>
+  <script >
+    $(function() {
+      'use strict';
+      var map = new GMaps({
+        el: '#map1',
+        lat: -12.043333,
+        lng: -77.028333
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/plugins/jquery-circliful/css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Charts</a></li>
+              <li class="breadcrumb-item">Other Chart</li>
+            </ol>
+          </div>
+          <h4 class="page-title">Other Charts</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Custom Line Chart</h5>
+            <div class="card-body">
+              <div id="sparkline4" class="text-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Area Charts</h5>
+            <div class="card-body">
+              <div id="sparkline1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Bar Chart</h5>
+            <div class="card-body">
+              <div id="sparkline2" class="text-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Pie Chart</h5>
+            <div class="card-body">
+              <div id="sparkline3" class="text-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Mouse Speed Chart Example</h5>
+            <div class="card-body">
+              <div id="sparkline5" class="text-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-sm-6">
+          <div class="card m-b-20">
+            <h5 class="card-header">Composite bar Chart</h5>
+            <div class="card-body">
+              <div id="sparkline6" class="text-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="header-title mt-3 mb-3">Jquery Knob</h4>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-3">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-fgColor="#fb5020" data-displayInput=false value="55" />
+                <h5 class="font-600 text-dark">Disable display input</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-cursor=true data-fgColor="#f21f5d" value="75" />
+                <h5 class="font-600 text-dark">Cursor mode</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="150" data-height="160" data-min="-100" data-fgColor="#6438c5" data-displayPrevious=true value="30" />
+                <h5 class="font-600 text-dark">Display previous value</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card  m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-min="-100" data-fgColor="#57a94f" data-displayPrevious=true data-angleOffset=-125 data-angleArc=250 value="25" />
+                <h5 class="font-600 text-dark">Angle offset and arc</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-3">
+          <div class="card  m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-angleOffset="90" data-linecap="round" data-fgColor="#ac3ba9" value="40" />
+                <h5 class="font-600 text-dark">Angle offset</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card  m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-min="-18000" data-displayPrevious=true data-max="16000" data-step="1000" value="12000" data-fgColor="#e33a84" />
+                <h5 class="font-600 text-dark">5-digit values</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-linecap="" data-fgColor="#a185f9" value="55" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".2" />
+                <h5 class="font-600 text-dark">Readonly</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-xl-3">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <input data-plugin="knob" data-width="160" data-height="160" data-displayPrevious=true data-fgColor="#13dafe" data-skin="tron" data-cursor=true value="33" data-thickness=".3" data-angleOffset=-125 data-angleArc=250>
+                <h5 class="font-600 text-dark">Angle offset and arc</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="header-title mt-3 mb-3">Circliful Charts</h4>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-dimension="180" data-text="22%" data-info="Users" data-width="20" data-fontsize="24" data-percent="22" data-fgcolor="#f21f5d" data-bgcolor="#f0f5f5" data-fill="#f8f9fa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-dimension="180" data-text="43%" data-info="Users" data-width="30" data-fontsize="24" data-percent="43" data-fgcolor="#ffdb4a" data-bgcolor="#f0f5f5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-startdegree="90" data-dimension="180" data-text="55%" data-info="Users" data-width="30" data-fontsize="24" data-percent="55" data-fgcolor="#fb5020" data-bgcolor="#f0f5f5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-startdegree="180" data-dimension="180" data-text="65%" data-info="Users" data-width="30" data-fontsize="24" data-percent="65" data-fgcolor="#57a94f" data-bgcolor="#f0f5f5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-dimension="180" data-text="23%" data-info="Users" data-width="30" data-fontsize="24" data-percent="23" data-fgcolor="#e33a84" data-bgcolor="#f0f5f5" data-type="half" data-fill="#f8f9fa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-md-4">
+          <div class="card m-b-20">
+            <div class="card-body">
+              <div class="text-center">
+                <div data-plugin="circliful" class="circliful-chart" data-startdegree="45" data-dimension="180" data-text="70%" data-info="Users" data-width="30" data-fontsize="24" data-percent="10" data-fgcolor="#105c83" data-bgcolor="#f0f5f5"
+                  data-type="half" data-fill="#f8f9fa">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Pie Charts</h5>
+            <div class="card-body">
+              <div class="new-row zurb-row">
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-pie" data-colors="#ac3ba9,#f0f5f5" data-width="40" data-height="40">1/3</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-pie" data-colors="#57a94f,#f0f5f5" data-width="40" data-height="40">150/300</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="pie" data-plugin="peity-pie" data-colors="#ac3ba9,#f0f5f5" data-width="40" data-height="40">0.50/1.361</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="pie" data-plugin="peity-pie" data-colors="#57a94f,#f0f5f5" data-width="40" data-height="40">1,2</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="pie" data-plugin="peity-pie" data-colors="#ac3ba9,#f0f5f5" data-width="40" data-height="40">200,100</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="pie" data-plugin="peity-pie" data-colors="#57a94f,#f0f5f5" data-width="40" data-height="40">0.50,1.021</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Donut Charts</h5>
+            <div class="card-body">
+              <div class="new-row zurb-row">
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#e33a84,#f0f5f5" data-width="40" data-height="40">1/8</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#47dfe2,#f0f5f5" data-width="40" data-height="40">220/300</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#e33a84,#f0f5f5" data-width="40" data-height="40">0.70/1.500</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#47dfe2,#f0f5f5" data-width="40" data-height="40">1,2</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#e33a84,#f0f5f5" data-width="40" data-height="40">200,100</div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div class="donut" data-plugin="peity-donut" data-colors="#47dfe2,#f0f5f5" data-width="40" data-height="40">1,3,2,3,3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Line and Bars Charts</h5>
+            <div class="card-body">
+              <div class="new-row zurb-row">
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-line" data-fill="#ffdb4a" data-stroke="#169c81" data-width="130" data-height="50">6,4,10,7,3,2,1,8,9,2> </div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-line" data-fill="#fb6d8b" data-stroke="#169c81" data-width="130" data-height="50">6,8,9,-2,-4,-5,4,2,7,5> </div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-line" data-fill="#47dfe2" data-stroke="#169c81" data-width="130" data-height="50">-1,-9,-5,-3,-8,-5,-8,-9,-4,-2> </div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-bar" data-colors="#77f0c0,#a185f9" data-width="150" data-height="40">6,4,8,7,6,10,8,4,6,3> </div>
+                </div>
+                <div class="zurb-div-lg-2 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-bar" data-colors="#ff66b3,#c6d9fd" data-width="150" data-height="40">6,4,3,-2,-4,-3,3,4,6,3> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Data-attributes charts</h5>
+            <div class="card-body mb-0">
+              <div class="new-row zurb-row">
+                <div class="zurb-div-lg-3 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-donut-alt" data-peity='{ "fill": ["#fb5020", "#f0f5f5"], "innerRadius": 24, "radius": 32 }'>2/5 </div>
+                </div>
+                <div class="zurb-div-lg-3 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-donut-alt" data-peity='{ "fill": ["#ac3ba9", "#f0f5f5"],  "innerRadius": 18, "radius": 25 }'>3/5 </div>
+                </div>
+                <div class="zurb-div-lg-3 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-donut-alt" data-peity='{ "fill": ["#47dfe2", "#f0f5f5"],   "innerRadius": 20, "radius": 24 }'>1/6 </div>
+                </div>
+                <div class="zurb-div-lg-3 zurb-div-sm-4 text-center">
+                  <div data-plugin="peity-donut-alt" data-peity='{ "fill": ["#ffdb4a", "#f0f5f5"], "innerRadius": 18, "radius": 20 }'>1/2 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer20"></div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <!--[if IE]>
+                <script  type="text/javascript" src="js/plugins/jquery-knob/excanvas.js"></script>
+                <![endif]-->
+  <script  src="js/plugins/jquery-knob/jquery.knob.js"></script>
+  <script  src="js/plugins/jquery-circliful/js/jquery.circliful.min.js"></script>
+  <script  src="js/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+  <script  src="js/jquery.other-charts.js"></script>
+  <script  src="js/plugins/peity/jquery.peity.min.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/created.js"></script>
+</body>
+
+</html>

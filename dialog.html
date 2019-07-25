@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/plugins/dialog/jquery.dialogbox.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"> UI Pages</a></li>
+              <li class="breadcrumb-item">Dialog</li>
+            </ol>
+          </div>
+          <h4 class="page-title">Dialog</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Basic Dialogbox</h5>
+            <div class="card-body">
+              <button onClick="dialogsmaple()" class="btn btn-secondary">Click me</button>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Mask Dialogbox</h5>
+            <div class="card-body">
+              <button class="btn btn-warning" id="btn-mask">Click me</button>
+              <div id="mask-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Auto close Dialogbox</h5>
+            <div class="card-body">
+              <button class="btn btn-purple" id="btn-auto-close">Click me</button>
+              <div id="auto-close-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">custom size DialogBox</h5>
+            <div class="card-body">
+              <button class="btn btn-custom" id="btn-custom-size">Click me</button>
+              <div id="custom-size-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Button Dialogbox</h5>
+            <div class="card-body">
+              <button class="btn btn-info" id="btn-btn">Click me</button>
+              <div id="btn-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Effect Dialogbox</h5>
+            <div class="card-body">
+              <button class="btn btn-primary" id="btn-btn1">Click me</button>
+              <div id="btn-dialogBox1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header">Type Dialogbox</h5>
+            <div class="card-body">
+              <button class="btn btn-success" id="btn-type">Click me</button>
+              <div id="type-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+        <div class="zurb-div-lg-3">
+          <div class="card m-b-20">
+            <h5 class="card-header"> Load external page or url</h5>
+            <div class="card-body">
+              <button class="btn btn-pink" id="btn-iframe">Click me</button>
+              <div id="iframe-dialogBox"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer20 "></div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/plugins/dialog/jquery.dialogBox.js"></script>
+  <script   src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/created.js"></script>
+  <script >
+    function dialogsmaple() {
+      alert("I am an dialog box!");
+    }
+    $('#btn-mask').on("click", function(e) {
+      $('#mask-dialogBox').dialogBox({
+        hasClose: true,
+        hasMask: true,
+        title: 'Dialog title',
+        content: 'Excepteur sint occaecat cupidatat non proident <br> Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nulla pariatursunt in culpa <br>qui officia deserunt mollit anim id est laborum.'
+      });
+    })
+    $('#btn-auto-close').on("click", function(e) {
+      $('#auto-close-dialogBox').dialogBox({
+        autoHide: true,
+        time: 3000,
+        title: 'Dialog title',
+        content: 'Excepteur sint occaecat cupidatat non proident <br> Duis aute irure dolor in reprehenderit in voluptate.'
+      });
+    })
+    $('#btn-custom-size').on("click", function(e) {
+      $('#custom-size-dialogBox').dialogBox({
+        width: 500,
+        height: 220,
+        title: 'Dialog title',
+        hasClose: true,
+        content: '<ul><li>This Admin template is most Responsive Dashboard</li><li>It is different versions are available</li><li>Support custom dialog box style.</li><li>on the high version of brwosers support a series of animation effect</li><li>Support adaptive popup content size</li><li>Support the standard and the modal dialog box</li></ul>'
+      });
+    })
+    $('#btn-btn').on("click", function(e) {
+      $('#btn-dialogBox').dialogBox({
+        hasClose: true,
+        hasBtn: true,
+        confirmValue: 'I am sure',
+        confirm: function() {
+          alert('this is callback function');
+        },
+        cancelValue: 'I will cancel',
+        title: 'Dialog title',
+        content: 'This Admin Dashboard Allowed Or not'
+      });
+    })
+    $('#btn-btn1').on("click", function(e) {
+      $('#btn-dialogBox1').dialogBox({
+        width: 500,
+        height: 180,
+        autoHide: true,
+        time: 3000,
+        effect: 'flip-horizontal',
+        title: 'Dialog title',
+        content: 'Excepteur sint occaecat cupidatat non proident <br> Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nulla pariatursunt in culpa <br>qui officia deserunt mollit anim id est laborum.'
+      });
+    })
+    $('#btn-iframe').on("click", function(e) {
+      $('#iframe-dialogBox').dialogBox({
+        hasMask: true,
+        hasClose: true,
+        hasBtn: true,
+        effect: 'sign',
+        title: 'Dialog title',
+        content: './index.html'
+      });
+    })
+    $('#btn-type').on("click", function(e) {
+      $('#type-dialogBox').dialogBox({
+        type: 'correct', //three type:'normal'(default),'correct','error'
+        width: 300,
+        height: 110,
+        hasMask: true,
+        autoHide: true,
+        time: 3000,
+        effect: 'fall',
+        title: 'Dialog title',
+        content: 'Admin template Successfully Upload' //'Admin some issues are there'
+      });
+    })
+  </script>
+</body>
+
+</html>

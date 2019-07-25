@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Forms</a></li>
+              <li class="breadcrumb-item">Form Wizard</li>
+            </ol>
+          </div>
+          <h4 class="page-title">Form Wizard</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Shipping Form Wizard</h5>
+            <div class="card-body mb-0">
+              <div class="stepwizard mt-2">
+                <div class="stepwizard-row setup-panel">
+                  <div class="stepwizard-step zurb-div-xs-3">
+                    <a href="#step-1" class=" btn-success btn-circle">1</a>
+                    <p><small>Shipper</small></p>
+                  </div>
+                  <div class="stepwizard-step zurb-div-xs-3">
+                    <a href="#step-2" class="btn-circle">2</a>
+                    <p><small>Destination</small></p>
+                  </div>
+                  <div class="stepwizard-step zurb-div-xs-3">
+                    <a href="#step-3" class="btn-circle">3</a>
+                    <p><small>Schedule</small></p>
+                  </div>
+                </div>
+              </div>
+              <form>
+                <div class="panel panel-color setup-content mb-0" id="step-1">
+                  <div class="panel-heading">
+                    <h5 class="panel-title">Shipper</h5>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label class="control-label">First Name</label>
+                      <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter First Name" />
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label">Last Name</label>
+                      <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Last Name" />
+                    </div>
+                    <button class="btn btn-custom nextBtn pull-right" type="button">Next</button>
+                  </div>
+                </div>
+                <div class="panel panel-color setup-content mb-0" id="step-2">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Destination</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label class="control-label">Company Name</label>
+                      <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label">Company Address</label>
+                      <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                    </div>
+                    <button class="btn btn-custom nextBtn pull-right" type="button">Next</button>
+                  </div>
+                </div>
+                <div class="panel panel-color setup-content mb-0" id="step-3">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Schedule</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label class="control-label">Company Name</label>
+                      <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Name" />
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label">Company Address</label>
+                      <input maxlength="200" type="text" required="required" class="form-control" placeholder="Enter Company Address" />
+                    </div>
+                    <button class="btn btn-custom pull-right" type="button">Finish!</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Basic Wizard</h5>
+            <div class="card-body">
+              <form>
+                <div id="basicwizard" class="border b-t0">
+                  <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-item"><a href="#tab1" data-toggle="tab" class="nav-link font-bold">Login</a></li>
+                    <li class="nav-item"><a href="#tab2" data-toggle="tab" class="nav-link font-bold">New User</a></li>
+                    <li class="nav-item"><a href="#tab3" data-toggle="tab" class="nav-link font-bold">End</a></li>
+                  </ul>
+                  <div class="tab-content b-0 mb-0">
+                    <div class="tab-pane m-t-10 fade" id="tab1">
+                      <div class="new-row zurb-row">
+                        <div class="zurb-div-12">
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-md-3 control-label " for="userName">User name *</label>
+                            <div class="zurb-div-md-9">
+                              <input class="form-control required" id="userName" name="userName" type="text">
+                            </div>
+                          </div>
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-md-3 control-label " for="password"> Password *</label>
+                            <div class="zurb-div-md-9">
+                              <input id="password" name="password" type="text" class="required form-control">
+                            </div>
+                          </div>
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-md-3 control-label " for="confirm">Confirm Password *</label>
+                            <div class="zurb-div-md-9">
+                              <input id="confirm" name="confirm" type="text" class="required form-control">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane m-t-10 fade" id="tab2">
+                      <div class="new-row zurb-row">
+                        <div class="zurb-div-12">
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-lg-2 control-label" for="name"> First name *</label>
+                            <div class="zurb-div-lg-10">
+                              <input id="name" name="name" type="text" class="required form-control">
+                            </div>
+                          </div>
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-lg-2 control-label " for="surname"> Last name *</label>
+                            <div class="zurb-div-lg-10">
+                              <input id="surname" name="surname" type="text" class="required form-control">
+                            </div>
+                          </div>
+                          <div class="form-group row clearfix">
+                            <label class="zurb-div-lg-2 control-label " for="email">Email *</label>
+                            <div class="zurb-div-lg-10">
+                              <input id="email" name="email" type="text" class="required email form-control">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane m-t-10 fade" id="tab3">
+                      <div class="new-row zurb-row">
+                        <div class="zurb-div-12">
+                          <div class="form-group row clearfix">
+                            <div class="zurb-div-lg-12">
+                              <div class="checkbox checkbox-info">
+                                <input id="checkbox-h" type="checkbox">
+                                <label for="checkbox-h"> I agree with the Terms and Conditions. </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="list-inline wizard mb-0">
+                      <li class="previous list-inline-item"><a href="#" class="btn btn-info waves-effect waves-light">Previous</a>
+                      </li>
+                      <li class="next list-inline-item float-right"><a href="#" class="btn btn-info waves-effect waves-light">Next</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Wizard With Form Validation</h5>
+            <div class="card-body">
+              <form id="commentForm" method="get" action="#" class="form-horizontal mb-0">
+                <div id="rootwizard" class="border b-t0">
+                  <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-item"><a href="#first" data-toggle="tab" class="nav-link font-bold">Sig in</a></li>
+                    <li class="nav-item"><a href="#second" data-toggle="tab" class="nav-link font-bold">Sign up</a></li>
+                    <li class="nav-item"><a href="#third" data-toggle="tab" class="nav-link font-bold">Close</a></li>
+                  </ul>
+                  <div class="tab-content mb-0 b-0">
+                    <div class="tab-pane fade" id="first">
+                      <div class="control-group">
+                        <label class="control-label" for="emailfield">Email</label>
+                        <div class="controls">
+                          <input type="text" id="emailfield" name="emailfield" class="required email form-control">
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label" for="namefield">Name</label>
+                        <div class="controls">
+                          <input type="text" id="namefield" name="namefield" class="required form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="second">
+                      <div class="control-group">
+                        <label class="control-label" for="urlfield">URL</label>
+                        <div class="controls">
+                          <input type="text" id="urlfield" name="urlfield" class="required url form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="third">
+                      <div class="form-group row clearfix">
+                        <div class="zurb-div-lg-12">
+                          <div class="checkbox checkbox-custom">
+                            <input id="checkbox-h3" type="checkbox">
+                            <label for="checkbox-h3"> I agree with the Terms and Conditions. </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="list-inline wizard mb-0 mt-4">
+                      <li class="previous list-inline-item"><a href="#" class="btn btn-custom waves-effect waves-light">Previous</a>
+                      </li>
+                      <li class="next list-inline-item float-right"><a href="#" class="btn btn-custom waves-effect waves-light">Next</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Button Wizard</h5>
+            <div class="card-body">
+              <div id="btnwizard" class="border b-t0">
+                <ul class="nav nav-tabs nav-justified">
+                  <li class="nav-item"><a href="#tab12" data-toggle="tab" class="nav-link font-bold">Login</a></li>
+                  <li class="nav-item"><a href="#tab22" data-toggle="tab" class="nav-link font-bold">New User</a></li>
+                  <li class="nav-item"><a href="#tab32" data-toggle="tab" class="nav-link font-bold">End</a></li>
+                </ul>
+                <div class="tab-content mb-0 b-0">
+                  <div class="tab-pane m-t-10 fade" id="tab12">
+                    <div class="new-row zurb-row">
+                      <div class="zurb-div-12">
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="userName2">User name *</label>
+                          <div class="zurb-div-md-9">
+                            <input class="form-control required" id="userName2" name="userName" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="password2"> Password *</label>
+                          <div class="zurb-div-md-9">
+                            <input id="password2" name="password" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="confirm2">Confirm Password *</label>
+                          <div class="zurb-div-md-9">
+                            <input id="confirm2" name="confirm" type="text" class="required form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane m-t-10 fade" id="tab22">
+                    <div class="new-row zurb-row">
+                      <div class="zurb-div-12">
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label" for="name2"> First name *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="name2" name="name" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label " for="surname2"> Last name *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="surname2" name="surname" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label " for="email2">Email *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="email2" name="email" type="text" class="required email form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane m-t-10 fade" id="tab32">
+                    <div class="new-row zurb-row">
+                      <div class="form-group row clearfix">
+                        <div class="zurb-div-lg-12">
+                          <div class="checkbox checkbox-secondary">
+                            <input id="checkbox-h2" type="checkbox">
+                            <label for="checkbox-h2"> I agree with the Terms and Conditions. </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-t-20"></div>
+                  <div class="pull-right">
+                    <input type='button' class='btn btn-danger button-next' name='next' value='Next' />
+                    <input type='button' class='btn btn-secondary button-last' name='last' value='Last' />
+                  </div>
+                  <div class="pull-left">
+                    <input type='button' class='btn btn-secondary button-first' name='first' value='First' />
+                    <input type='button' class='btn btn-info button-previous' name='previous' value='Previous' />
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-xl-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Wizard With Progress Bar</h5>
+            <div class="card-body">
+              <div id="progressbarwizard" class="border b-t0">
+                <ul class="nav nav-tabs nav-justified">
+                  <li class="nav-item"><a href="#account-2" data-toggle="tab" class="nav-link font-bold">Sign in</a></li>
+                  <li class="nav-item"><a href="#profile-tab-2" data-toggle="tab" class="nav-link font-bold">Sign Up</a></li>
+                  <li class="nav-item"><a href="#finish-2" data-toggle="tab" class="nav-link font-bold">Close</a></li>
+                </ul>
+                <div class="tab-content b-0 mb-0">
+                  <div id="bar" class="progress progress-striped progress-bar-success-alt">
+                    <div class="bar progress-bar progress-bar-success"></div>
+                  </div>
+                  <div class="tab-pane p-t-10 fade" id="account-2">
+                    <div class="new-row zurb-row">
+                      <div class="zurb-div-12">
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="userName1">User name *</label>
+                          <div class="zurb-div-md-9">
+                            <input class="form-control required" id="userName1" name="userName" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="password1"> Password *</label>
+                          <div class="zurb-div-md-9">
+                            <input id="password1" name="password" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-md-3 control-label " for="confirm1">Confirm Password *</label>
+                          <div class="zurb-div-md-9">
+                            <input id="confirm1" name="confirm" type="text" class="required form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane p-t-10 fade" id="profile-tab-2">
+                    <div class="new-row zurb-row">
+                      <div class="zurb-div-12">
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label" for="name1"> First name *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="name1" name="name" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label " for="surname1"> Last name *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="surname1" name="surname" type="text" class="required form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row clearfix">
+                          <label class="zurb-div-lg-2 control-label " for="email1">Email *</label>
+                          <div class="zurb-div-lg-10">
+                            <input id="email1" name="email" type="text" class="required email form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane p-t-10 fade" id="finish-2">
+                    <div class="new-row zurb-row">
+                      <div class="zurb-div-12">
+                        <div class="form-group row clearfix">
+                          <div class="zurb-div-lg-12">
+                            <div class="checkbox checkbox-success">
+                              <input id="checkbox-h1" type="checkbox">
+                              <label for="checkbox-h1"> I agree with the Terms and Conditions. </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="list-inline mb-0 wizard mb-0">
+                    <li class="previous list-inline-item first ds"><a href="#">First</a>
+                    </li>
+                    <li class="previous list-inline-item"><a href="#" class="btn btn-success waves-effect waves-light">Previous</a></li>
+                    <li class="next last list-inline-item ds"><a href="#">Last</a></li>
+                    <li class="next list-inline-item float-right"><a href="#" class="btn btn-success waves-effect waves-light">Next</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+  <script  src="js/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script  src="js/wizard.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/created.js"></script>
+  <script >
+    $(function(e) {
+      $('#basicwizard').bootstrapWizard({
+        'tabClass': 'nav nav-tabs navtab-wizard nav-justified bg-muted'
+      });
+      $('#progressbarwizard').bootstrapWizard({
+        onTabShow: function(tab, navigation, index) {
+          var $total = navigation.find('li').length;
+          var $current = index + 1;
+          var $percent = ($current / $total) * 100;
+          $('#progressbarwizard').find('.bar').css({
+            width: $percent + '%'
+          });
+        },
+        'tabClass': 'nav nav-tabs navtab-wizard nav-justified bg-muted'
+      });
+      $('#btnwizard').bootstrapWizard({
+        'tabClass': 'nav nav-tabs navtab-wizard nav-justified bg-muted',
+        'nextSelector': '.button-next',
+        'previousSelector': '.button-previous',
+        'firstSelector': '.button-first',
+        'lastSelector': '.button-last'
+      });
+      var $validator = $("#commentForm").validate({
+        rules: {
+          emailfield: {
+            required: true,
+            email: true,
+            minlength: 3
+          },
+          namefield: {
+            required: true,
+            minlength: 3
+          },
+          urlfield: {
+            required: true,
+            minlength: 3,
+            url: true
+          }
+        }
+      });
+      $('#rootwizard').bootstrapWizard({
+        'tabClass': 'nav nav-tabs navtab-wizard nav-justified bg-muted',
+        'onNext': function(tab, navigation, index) {
+          var $valid = $("#commentForm").valid();
+          if (!$valid) {
+            $validator.focusInvalid();
+            return false;
+          }
+        }
+      });
+      var navListItems = $('div.setup-panel div a'),
+        allWells = $('.setup-content'),
+        allNextBtn = $('.nextBtn');
+      allWells.hide();
+      navListItems.click(function(e) {
+        e.preventDefault();
+        var $target = $($(this).attr('href')),
+          $item = $(this);
+        if (!$item.hasClass('disabled')) {
+          navListItems.removeClass('btn-success').addClass('btn-default');
+          $item.addClass('btn-success');
+          allWells.hide();
+          $target.show();
+          $target.find('input:eq(0)').focus();
+        }
+      });
+      allNextBtn.click(function() {
+        var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+          curInputs = curStep.find("input[type='text'],input[type='url']"),
+          isValid = true;
+        $(".form-group").removeClass("has-error");
+        for (var i = 0; i < curInputs.length; i++) {
+          if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error");
+          }
+        }
+        if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+      });
+      $('div.setup-panel div a.btn-success').trigger('click');
+    });
+  </script>
+</body>
+
+</html>

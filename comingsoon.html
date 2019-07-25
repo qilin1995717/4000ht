@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <div id="particles-js" class="zindex1"></div>
+  <!-- <header id="iframe-header">
+         <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+         <div id="topnav">
+  <div class="top-header-animation">
+    <div id="particles-js" class="zindex1"></div>
+  </div>
+  <div class="added-element-header"></div>
+</div>
+         </header> -->
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="account-pages"></div>
+  <div class="clearfix"></div>
+  <div class="home-wrapper zindex2 relative">
+    <div class="container-alt">
+      <div class="row m-t-40">
+        <div class="zurb-div-sm-12">
+          <div class="text-center">
+            <h1 class="text-white m-t-0 text-uppercase m-b-30">Coming Soon</h1>
+            <P class="text-white m-t-20 m-b-10 font-18">Our website is currently undergoing scheduled maintenance. We Should be back shortly. Thank you for your patience.</P>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-lg-10 offset-lg-1">
+          <div id="count-down" class="row center-block text-white">
+            <div class="clock-presenter days_dash zurb-div-sm-3">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <p class='note dash_title'>Days</p>
+            </div>
+            <div class="clock-presenter hours_dash zurb-div-sm-3">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <p class='note dash_title'>Hours</p>
+            </div>
+            <div class="clock-presenter minutes_dash zurb-div-sm-3">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <p class='note dash_title'>Minutes</p>
+            </div>
+            <div class="clock-presenter seconds_dash zurb-div-sm-3">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <p class='note dash_title'>Seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up "></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/plugins/count-down/jquery.lwtCountdown-1.0.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script >
+    $(document).ready(function() {
+      "use strict";
+      //Set your date
+      $('#count-down').countDown({
+        targetDate: {
+          'day': 17,
+          'month': 1,
+          'year': 2020,
+          'hour': 0,
+          'min': 0,
+          'sec': 0
+        },
+        omitWeeks: true
+      });
+    });
+  </script>
+</body>
+
+</html>

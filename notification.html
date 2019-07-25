@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sample 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body-main">
+  <header id="iframe-header">
+    <iframe src="_header.html" style="display:none" id="iframe-header"></iframe>
+    <div id="topnav">
+      <div class="top-header-animation">
+        <div id="particles-js" class="zindex1"></div>
+      </div>
+      <div class="added-element-header"></div>
+    </div>
+  </header>
+  <section>
+    <div class="spinner">
+      <div class="loader">
+        <div class="bounce loader1 "></div>
+        <div class="bounce loader2 "></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="zurb-full">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-sm-12">
+          <div class="hide-bread float-right">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Elements</a></li>
+              <li class="breadcrumb-item">Notifications</li>
+            </ol>
+          </div>
+          <h4 class="page-title">Notifications</h4>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-md-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Notifications Styles</h5>
+            <div class="card-body">
+              <div class="new-row zurb-row">
+                <div class="zurb-div-md-6">
+                  <h6 class="font-14 font-600 m-b-10">Sample notifications</h6>
+                  <div class="alert alert-primary" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-secondary" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-success" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-danger" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-pink" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-purple" role="alert">This is a sample alert—check it out!</div>
+                  <div class="alert alert-warning" role="alert">This is a sample alert—check it out!</div>
+                </div>
+                <div class="zurb-div-md-6">
+                  <h6 class="font-14 font-600 m-b-10">Notification dismissing</h6>
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-pink alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                  <div class="alert alert-purple alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-md-12">
+          <div class="card m-b-20">
+            <h5 class="card-header">Material design notifications</h5>
+            <div class="card-body">
+              <a class="btn btn-info m-b-5" onClick="toastr.info('Hi! I am info message.');">Info message</a>
+              <a class="btn btn-warning m-b-5" onClick="toastr.warning('Hi! I am warning message.');">Warning message</a>
+              <a class="btn btn-success m-b-5" onClick="toastr.success('Hi! I am success message.');">Success message</a>
+              <a class="btn btn-danger m-b-5" onClick="toastr.error('Hi! I am error message.');">Error message</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="new-row zurb-row">
+        <div class="zurb-div-md-12">
+          <div class="zurb-div-box">
+            <div class="new-row zurb-row">
+              <div class="zurb-div-xl-4 zurb-div-md-6">
+                <div class="control-group">
+                  <div class="controls">
+                    <label class="control-label">Title</label>
+                    <input id="title" type="text" class="input-large form-control" placeholder="Enter a title ..." />
+                    <label class="control-label m-t-10">Message</label>
+                    <textarea class="input-large form-control" id="message1" rows="3" placeholder="Enter a message ..."></textarea>
+                  </div>
+                </div>
+                <div class="control-group m-t-30">
+                  <div class="checkbox controls">
+                    <input id="closeButton" type="checkbox" value="checked" class="input-mini" />
+                    <label for="closeButton"> Close Button </label>
+                  </div>
+                  <div class="checkbox controls">
+                    <input id="addBehaviorOnToastClick" type="checkbox" value="checked" class="input-mini" />
+                    <label for="addBehaviorOnToastClick"> Add behavior on toast click </label>
+                  </div>
+                  <div class="checkbox controls">
+                    <input id="debugInfo" type="checkbox" value="checked" class="input-mini" />
+                    <label for="debugInfo"> Debug </label>
+                  </div>
+                  <div class="controls checkbox">
+                    <input id="progressBar" type="checkbox" value="checked" class="input-mini" />
+                    <label for="progressBar"> Progress Bar </label>
+                  </div>
+                  <div class="checkbox controls">
+                    <input id="preventDuplicates" type="checkbox" value="checked" class="input-mini" />
+                    <label for="preventDuplicates"> Prevent Duplicates </label>
+                  </div>
+                  <div class="checkbox controls">
+                    <input id="addClear" type="checkbox" value="checked" class="input-mini" />
+                    <label for="addClear"> Add button to force clearing a toast, ignoring focus </label>
+                  </div>
+                  <div class="checkbox controls">
+                    <input id="newestOnTop" type="checkbox" value="checked" class="input-mini" />
+                    <label for="newestOnTop"> Newest on top </label>
+                  </div>
+                </div>
+              </div>
+              <div class="zurb-div-xl-2 zurb-div-md-6">
+                <div class="control-group" id="toastTypeGroup">
+                  <div class="controls">
+                    <label>Toast Type</label>
+                    <div class="radio radio-success">
+                      <input type="radio" name="radio" id="radio1" value="success" checked>
+                      <label for="radio1"> Success </label>
+                    </div>
+                    <div class="radio radio-info">
+                      <input type="radio" name="radio" id="radio2" value="info">
+                      <label for="radio2"> Info </label>
+                    </div>
+                    <div class="radio radio-warning">
+                      <input type="radio" name="radio" id="radio3" value="warning">
+                      <label for="radio3"> Warning </label>
+                    </div>
+                    <div class="radio radio-danger">
+                      <input type="radio" name="radio" id="radio4" value="error">
+                      <label for="radio4"> Error </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="control-group" id="positionGroup">
+                  <div class="controls">
+                    <label>Position</label>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio5" value="toast-top-right" checked />
+                      <label for="radio5"> Top Right </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio6" value="toast-bottom-right" />
+                      <label for="radio6"> Bottom Right </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio7" value="toast-bottom-left" />
+                      <label for="radio7"> Bottom Left </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio8" value="toast-top-left" />
+                      <label for="radio8"> Top Left </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio9" value="toast-top-full-width" />
+                      <label for="radio9"> Top Full Width </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio10" value="toast-bottom-full-width" />
+                      <label for="radio10"> Bottom Full Width </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio11" value="toast-top-center" />
+                      <label for="radio11"> Top Center </label>
+                    </div>
+                    <div class="radio radio-custom">
+                      <input type="radio" name="positions" id="radio12" value="toast-bottom-center" />
+                      <label for="radio12"> Bottom Center </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="zurb-div-xl-3 zurb-div-md-6">
+                <div class="control-group">
+                  <div class="controls">
+                    <label for="showEasing">Show Easing</label>
+                    <input id="showEasing" type="text" placeholder="swing, linear" class="input-mini form-control" value="swing" />
+                    <label for="hideEasing" class="m-t-10">Hide Easing</label>
+                    <input id="hideEasing" type="text" placeholder="swing, linear" class="input-mini form-control" value="linear" />
+                    <label for="showMethod" class="m-t-10">Show Method</label>
+                    <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="input-mini form-control" value="fadeIn" />
+                    <label for="hideMethod" class="m-t-10">Hide Method</label>
+                    <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="input-mini form-control" value="fadeOut" />
+                  </div>
+                </div>
+              </div>
+              <div class="zurb-div-xl-3 zurb-div-md-6">
+                <div class="control-group">
+                  <div class="controls">
+                    <label for="showDuration">Show Duration</label>
+                    <input id="showDuration" type="text" placeholder="ms" class="input-mini form-control" value="300" />
+                    <label for="hideDuration" class="m-t-10">Hide Duration</label>
+                    <input id="hideDuration" type="text" placeholder="ms" class="input-mini form-control" value="1000" />
+                    <label for="timeOut" class="m-t-10">Time out</label>
+                    <input id="timeOut" type="text" placeholder="ms" class="input-mini form-control" value="5000" />
+                    <label for="extendedTimeOut" class="m-t-10">Extended time out</label>
+                    <input id="extendedTimeOut" type="text" placeholder="ms" class="input-mini form-control" value="1000" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row m-t-30">
+              <div class="zurb-div-md-12">
+                <button type="button" class="btn btn-secondary waves-effect waves-light m-b-5" id="showtoast">Show Toast</button>
+                <button type="button" class="btn btn-info waves-effect waves-light m-b-5" id="cleartoasts">Clear Toasts</button>
+                <button type="button" class="btn btn-custom waves-effect waves-light m-b-5" id="clearlasttoast">Clear Last Toast</button>
+              </div>
+            </div>
+            <div class="row m-t-30">
+              <div class="zurb-div-md-12">
+                <pre id='toastrOptions'></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer20"></div>
+  </div>
+  <footer class="footer">
+    <div class="zurb-contents">
+      <div class="new-row zurb-row">
+        <div class="zurb-div-12 text-center"> Eon Admin © 2018-2019. All Rights Reserved By: <strong> Spruko</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#body-main " id="goTop"><i class="fa fa-chevron-up"></i></a>
+  <script  src="js/jquery.min.js"></script>
+  <script  src="js/popper.min.js"></script>
+  <script  src="js/bootstrap.min.js"></script>
+  <script  src="js/waves.js"></script>
+  <script  src="js/jquery.slimscroll.js"></script>
+  <script  src="js/modernizr.min.js"></script>
+  <script  src="js/plugins/particles.js-master/particles.js"></script>
+  <script  src="js/plugins/particles.js-master/particlesapp_bubble.js"></script>
+  <script  src="js/plugins/toastr/toastr.min.js"></script>
+  <script  src="js/equalize.min.js"></script>
+  <script  src="js/jquery.core.js"></script>
+  <script  src="js/jquery.app.js"></script>
+  <script  src="js/created.js"></script>
+  <script >
+    $(function() {
+      var i = -1;
+      var toastCount = 0;
+      var $toastlast;
+      var getMessage = function() {
+        var msgs = ['My name is Ruth Lyman. I will meet you.  Are you free Know!', 'you are Gavin Smith brother?', ' Nice to meet you!', 'Today weather is so hot.', 'Hi! i stay now'];
+        i++;
+        if (i === msgs.length) {
+          i = 0;
+        }
+        return msgs[i];
+      };
+      var getMessageWithClearButton = function(msg) {
+        msg = msg ? msg : 'Clear itself?';
+        msg += '<br /><br /><button type="button" class="btn btn-default clear">Yes</button>';
+        return msg;
+      };
+      $('#showtoast').click(function() {
+        var shortCutFunction = $("#toastTypeGroup input:radio:checked").val();
+        var msg = $('#message1').val();
+        var title = $('#title').val() || '';
+        var $showDuration = $('#showDuration');
+        var $hideDuration = $('#hideDuration');
+        var $timeOut = $('#timeOut');
+        var $extendedTimeOut = $('#extendedTimeOut');
+        var $showEasing = $('#showEasing');
+        var $hideEasing = $('#hideEasing');
+        var $showMethod = $('#showMethod');
+        var $hideMethod = $('#hideMethod');
+        var toastIndex = toastCount++;
+        var addClear = $('#addClear').prop('checked');
+        toastr.options = {
+          closeButton: $('#closeButton').prop('checked'),
+          debug: $('#debugInfo').prop('checked'),
+          newestOnTop: $('#newestOnTop').prop('checked'),
+          progressBar: $('#progressBar').prop('checked'),
+          positionClass: $('#positionGroup input:radio:checked').val() || 'toast-top-right',
+          preventDuplicates: $('#preventDuplicates').prop('checked'),
+          onclick: null
+        };
+        if ($('#addBehaviorOnToastClick').prop('checked')) {
+          toastr.options.onclick = function() {
+            alert('You can perform some custom action after a toast goes away');
+          };
+        }
+        if ($showDuration.val().length) {
+          toastr.options.showDuration = $showDuration.val();
+        }
+        if ($hideDuration.val().length) {
+          toastr.options.hideDuration = $hideDuration.val();
+        }
+        if ($timeOut.val().length) {
+          toastr.options.timeOut = addClear ? 0 : $timeOut.val();
+        }
+        if ($extendedTimeOut.val().length) {
+          toastr.options.extendedTimeOut = addClear ? 0 : $extendedTimeOut.val();
+        }
+        if ($showEasing.val().length) {
+          toastr.options.showEasing = $showEasing.val();
+        }
+        if ($hideEasing.val().length) {
+          toastr.options.hideEasing = $hideEasing.val();
+        }
+        if ($showMethod.val().length) {
+          toastr.options.showMethod = $showMethod.val();
+        }
+        if ($hideMethod.val().length) {
+          toastr.options.hideMethod = $hideMethod.val();
+        }
+        if (addClear) {
+          msg = getMessageWithClearButton(msg);
+          toastr.options.tapToDismiss = false;
+        }
+        if (!msg) {
+          msg = getMessage();
+        }
+        $('#toastrOptions').text('Command: toastr["' + shortCutFunction + '"]("' + msg + (title ? '", "' + title : '') + '")\n\ntoastr.options = ' + JSON.stringify(toastr.options, null, 2));
+        var $toast = toastr[shortCutFunction](msg, title); // Wire up an event handler to a button in the toast, if it exists
+        $toastlast = $toast;
+        if (typeof $toast === 'undefined') {
+          return;
+        }
+        if ($toast.find('#okBtn').length) {
+          $toast.delegate('#okBtn', 'click', function() {
+            alert('you clicked me. i was toast #' + toastIndex + '. goodbye!');
+            $toast.remove();
+          });
+        }
+        if ($toast.find('#surpriseBtn').length) {
+          $toast.delegate('#surpriseBtn', 'click', function() {
+            alert('Surprise! you clicked me. i was toast #' + toastIndex + '. You could perform an action here.');
+          });
+        }
+        if ($toast.find('.clear').length) {
+          $toast.delegate('.clear', 'click', function() {
+            toastr.clear($toast, {
+              force: true
+            });
+          });
+        }
+      });
+
+      function getLastToast() {
+        return $toastlast;
+      }
+      $('#clearlasttoast').on("click", function(e) {
+        toastr.clear(getLastToast());
+      });
+      $('#cleartoasts').on("click", function(e) {
+        toastr.clear();
+      });
+    })
+  </script>
+</body>
+
+</html>
